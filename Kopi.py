@@ -6,8 +6,8 @@ from tensorflow.keras.models import Model, load_model
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 
 # Memuat model
-modelbean = load_model('Model\Coffee_Bean.keras')
-modelclassification = load_model('Model\Coffee_Classification.keras')
+modelbean = load_model('Coffee_Bean.keras')
+modelclassification = load_model('Coffee_Classification.keras')
 
 # Mendefinisikan class names (ganti dengan nama-nama kelas yang sesuai)
 class_beanclassification = ['Arabika', 'Bukan Biji Kopi', 'Liberika', 'Robusta']
