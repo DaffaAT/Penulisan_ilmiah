@@ -60,6 +60,7 @@ st.write('Model CNN memproses gambar melalui beberapa lapisan yang mendeteksi fi
 
 # Mengunggah file gambar di sidebar
 st.sidebar.subheader('Upload Gambar Biji kopi anda disini')
+st.sidebar.write('Prediksi akan lebih akurat apabila gambar yang di seleksi dalam bentuk biji kopi satuan dengan background polos atau tanpa background')
 uploaded_file = st.sidebar.file_uploader('Drag file disini', type=['png', 'jpg', 'jpeg'])
 
 gambar_roast = uploaded_file
@@ -116,4 +117,5 @@ if uploaded_file != None:
 
 else:
     st.write('Upload gambar biji kopi di sidebar')
+    st.write('Prediksi akan lebih akurat apabila gambar yang di seleksi dalam bentuk biji kopi satuan dengan background polos atau tanpa background')
     st.write('Sidebar ada di menu atas kiri pencet ini "<" Untuk membuka sidebar')
