@@ -116,3 +116,4 @@ if uploaded_file != None:
 
 else:
     st.write('Upload gambar biji kopi di sidebar')
+    st.write('Sidebar ada di menu atas kiri pencet ini "<" Untuk membuka sidebar')
