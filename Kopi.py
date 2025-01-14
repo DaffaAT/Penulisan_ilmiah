@@ -18,6 +18,11 @@ def show_image(image, title=''):
     plt.imshow(image)
     plt.title(title)
     plt.axis('off')
+
+st.set_page_config(
+    page_title="Multipage App",
+)
+st.sidebar.success("Home")
     
 st.title('Website Klasifikasi Biji Kopi')
 
