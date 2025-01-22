@@ -13,7 +13,7 @@ st.title("Trend Konsumsi Kopi di Dunia")
 @st.cache_data
 def load_data():
     # Baca data
-    df = pd.read_csv("worldwide_coffee_habits.csv")
+    df = pd.read_csv("pages/worldwide_coffee_habits.csv")
     # Urutkan berdasarkan Country dan Year
     df = df.sort_values(['Country', 'Year'])
     return df
